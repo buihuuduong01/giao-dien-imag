@@ -12,7 +12,7 @@ body{
 }
 /*tìm thẻ nav có id là*/
 nav#main-nav{
-	background-color: yellow;
+	
 }
 #body-page{
 	/*làm xong thì xóa*/
@@ -62,4 +62,41 @@ footer#footer-page{
 }
 .block .content-block{
 	padding: 10px;
+}
+/* thanh menu ngang*/
+#main-nav{
+
+}
+#main-nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;/*xóa dấu chấm */
+	background: #82bcea;
+	background: -moz-linear-gradient(left,  #82bcea 0%, #60abf8 44%, #1d5699 100%);
+	background: -webkit-linear-gradient(left,  #82bcea 0%,#60abf8 44%,#1d5699 100%);
+	background: linear-gradient(to right,  #82bcea 0%,#60abf8 44%,#1d5699 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82bcea', endColorstr='#1d5699',GradientType=1 );
+
+
+	border-bottom: 3px solid #5b5c57;/*đường kẻ dưới*/
+	font-size: 0px;
+}
+#main-nav ul li{
+	display: inline-block; /*hiện ngang*/
+
+	font-size: 1rem;
+}
+#main-nav ul li a{
+	font-family: Arial;
+	text-decoration: none;/*bỏ gạch chân*/
+	padding: 10px;
+	display: block; /*chuyển thành khối*/
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+#main-nav ul li:last-child a{
+	border-right: none;
+}
+#main-nav ul li a:hover, #main-nav ul li.active a{
+	background-color: #222327;
 }
