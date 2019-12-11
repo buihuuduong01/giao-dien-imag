@@ -45,8 +45,21 @@ footer#footer-page{
 	width: 100%;
 	-webkit-box-shadow: 0 7px 5px 0 #D4D4D4;
 	box-shadow: 0 7px 5px 0 #D4D4D4;
+	margin-bottom: 20px;
 
 }
 .block header{
-	border-top: 2px solid cyan;
+	border-top: 3px solid #08afe3;
+	border-bottom: 1px solid #eee;
+}
+.block header h3{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px;
+	font-family: Arial;
+	color: #4e4e4e;
+	font-size: 0.95em;
+}
+.block .content-block{
+	padding: 10px;
 }
