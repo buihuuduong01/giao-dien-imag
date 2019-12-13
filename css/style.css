@@ -5,7 +5,7 @@ body{
 	background-color: #f6f5f1;
 }
 #page{
-	width: 1000px;
+	width: 1100px;
 	margin: 0px auto;
 
 	
@@ -20,14 +20,15 @@ nav#main-nav{
 	background-color: #fff; 
 }
 section#left-page{
-	width: 750px;
+	width: 800px;
 	padding: 10px;
 	float: left;
+	font-family: arial;
 /*	background-color: cyan;
 */
 }
 aside{
-	width: 250px;
+	width: 300px;
 	padding: 10px;
 	float: right;
 /*	background-color: yellow;
@@ -105,10 +106,15 @@ footer#footer-page{
 	width: 100%;
 	margin-bottom: 20px;
 }
-.rec-post .content-block .hot img, .rec-post ul li img{
+.rec-post .content-block .hot img, .rec-post ul li img, .sb-post-thumbnail{
 	float: left;
 	margin-bottom: 10px;
 	margin-right: 10px;
+}
+.conten-block ul {
+	
+	list-style: none;
+	padding-left: 8px; 
 }
 .rec-post ul{
 	margin: 0px;
@@ -123,4 +129,23 @@ footer#footer-page{
 }
 .rec-post h3{
 	margin: 3px 0px;
+}
+h4{
+	margin-bottom: 0px;
+}
+h3,h4{
+	color: #666;
+}
+.sb-post-meta p{
+	margin-top: 12px;
+}
+.sb-post-meta p,h4,p,h3{
+	font-family: Arial;
+}
+p,span{
+	color: #c2bdc0;
+	font-size: 14px;
+}
+.hot h3,h3{
+	font-size: 15px;
 }
