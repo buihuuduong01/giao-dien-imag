@@ -216,12 +216,6 @@ p,span{
   section#left-page{
   	width: 100%;
   }
-  .conten-block .hot{
-  	width: 100%;
-  }
-  .block ul{
-  	width: 100%;
-  }
   .block ul li{
   	width: 100%;
   }
@@ -244,6 +238,38 @@ p,span{
   	width: 100%;
   }
 }
-@media only screen and (min-width: 480px) {
-  .demo {background: green;}
-}
+@media only screen and (min-width: 768px) {
+/*  #main-nav ul li{
+  	display: block;
+  }*/
+  #page{
+  	width: 100%;
+  }
+ /* #main-nav ul li a{
+  	width: 100%;
+  }*/
+  section#left-page{
+  	width: 100%;
+  }
+/*  .block ul li{
+  	width: 100%;
+  }*/
+  #asi{
+  	width: 100%
+  }
+  .conten-block ul li{
+  	height: 70px;
+  }
+  .footer-block1{
+  	width: 100%;
+  }
+  .footer-block2{
+  	width: 100%;
+  }
+  .footer-block3{
+  	width: 100%;
+  }
+  .footer-block4{
+  	width: 100%;
+  }
+} 
